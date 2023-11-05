@@ -61,3 +61,23 @@ print("Would you like to have some dinner " + guests[1] + "?")
 del guests[1]
 del guests[0]
 print(guests)
+
+# Excercise 3.8
+cars = ["bmw", "audi", "toyota", "subaru"]
+print(cars)
+print(sorted(cars))
+print(cars)
+print(sorted(cars, reverse=True))
+print(cars)
+cars.reverse()
+print(cars)
+cars.reverse()
+print(cars)
+cars.sort()
+print(cars)
+cars.sort(reverse=True)
+print(cars)
+
+# Excercise 3.9
+print(len(guests))
+print(cars[2332])
